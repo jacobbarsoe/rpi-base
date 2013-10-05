@@ -4,7 +4,7 @@ DESCRIPTION = "Util-linux is a suite of essential utilities for any \
 
 RECIPE_TYPES = "machine native sdk"
 
-inherit autotools autotools-autoreconf
+inherit autotools 
 
 require conf/fetch/kernelorg.conf
 MA = "${@bb.data.getVar('PV', d, 1).split('.')[0]}"
