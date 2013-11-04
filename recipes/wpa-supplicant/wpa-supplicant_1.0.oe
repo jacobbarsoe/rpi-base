@@ -2,4 +2,4 @@ require wpa-supplicant.inc
 
 LICENSE = "GPL-2.0 | BSD-3-Clause"
 
-DEFAULT_PREFERENCE = "-1"
+#DEFAULT_PREFERENCE = "-1"
