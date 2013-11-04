@@ -3,7 +3,7 @@ HOMEPAGE = "http://www.gnupg.org/related_software/libgpg-error/"
 
 SRC_URI = "ftp://ftp.gnupg.org/gcrypt/libgpg-error/libgpg-error-${PV}.tar.bz2"
 
-inherit autotools-autoreconf binconfig pkgconfig gettext library
+inherit autotools binconfig pkgconfig gettext library
 
 do_install[postfuncs] += "do_install_append"
 do_install_append() {
